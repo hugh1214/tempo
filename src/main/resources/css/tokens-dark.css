@@ -1,0 +1,28 @@
+/* Quick Scheduler Dark semantic tokens — reference for JavaFX looked-up colors */
+.root.theme-dark {
+    -qs-bg-window: #17181B;
+    -qs-bg-content: #1C1D20;
+    -qs-bg-sidebar: #181A1D;
+    -qs-bg-field: #25272B;
+    -qs-bg-elevated: #23252A;
+
+    -qs-text-primary: #F5F5F7;
+    -qs-text-secondary: #C6C6CC;
+    -qs-text-tertiary: #85858D;
+
+    -qs-separator: #36383E;
+    -qs-separator-elevated: #3A3C42;
+
+    -qs-accent: #0A84FF;
+    -qs-accent-hover: #409CFF;
+    -qs-selection: rgba(10, 132, 255, 0.20);
+    -qs-selection-strong: rgba(10, 132, 255, 0.32);
+
+    -qs-danger: #FF453A;
+    -qs-warning: #FF9F0A;
+    -qs-success: #30D158;
+    -qs-purple: #BF5AF2;
+
+    -qs-hover-neutral: rgba(255, 255, 255, 0.05);
+    -qs-pressed-neutral: rgba(255, 255, 255, 0.09);
+}

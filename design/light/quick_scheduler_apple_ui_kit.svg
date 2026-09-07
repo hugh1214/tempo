@@ -1,0 +1,896 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3240" height="2620" viewBox="0 0 3240 2620">
+<defs>
+  <filter id="panelShadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="5" stdDeviation="12" flood-color="#000000" flood-opacity="0.06"/></filter>
+  <filter id="windowShadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="18" stdDeviation="28" flood-color="#000000" flood-opacity="0.16"/></filter>
+  <filter id="popoverShadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="8" stdDeviation="18" flood-color="#000000" flood-opacity="0.16"/></filter>
+</defs>
+<rect x="0" y="0" width="3240" height="2620" rx="0" fill="#F2F2F5" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<text x="72" y="62" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">Quick Scheduler · macOS UI Kit</text>
+<text x="72" y="88" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="12" font-weight="450" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Original scheduler UI system informed by Apple Design Resources / HIG · JavaFX implementation reference</text>
+<rect x="2870" y="42" width="128" height="24" rx="12" fill="#FFFFFF" fill-opacity="1" stroke="#D8D8DC" stroke-opacity="1" stroke-width="1" opacity="1" />
+<text x="2934.0" y="58" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" fill="#6E6E73" text-anchor="middle" opacity="1" letter-spacing="0">LIGHT · v1.0</text>
+<rect x="72" y="118" width="720" height="652" rx="18" fill="#FFFFFF" fill-opacity="1" stroke="#D8D8DC" stroke-opacity="1" stroke-width="1" opacity="1" filter="url(#panelShadow)"/>
+<text x="96" y="156" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="18" font-weight="650" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">01 · Foundations</text>
+<text x="96" y="180" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Compact macOS productivity density</text>
+<text x="96" y="210" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="12" font-weight="650" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Color roles</text>
+<rect x="96" y="230" width="148" height="42" rx="10" fill="#FBFBFC" fill-opacity="1" stroke="#D8D8DC" stroke-opacity="1" stroke-width="1" opacity="1" />
+<text x="104" y="288" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Window</text>
+<rect x="264" y="230" width="148" height="42" rx="10" fill="#F4F4F6" fill-opacity="1" stroke="#D8D8DC" stroke-opacity="1" stroke-width="1" opacity="1" />
+<text x="272" y="288" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Sidebar</text>
+<rect x="432" y="230" width="148" height="42" rx="10" fill="#FFFFFF" fill-opacity="1" stroke="#D8D8DC" stroke-opacity="1" stroke-width="1" opacity="1" />
+<text x="440" y="288" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Content</text>
+<rect x="600" y="230" width="148" height="42" rx="10" fill="#1D1D1F" fill-opacity="1" stroke="#D8D8DC" stroke-opacity="1" stroke-width="1" opacity="1" />
+<text x="608" y="288" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Text</text>
+<rect x="96" y="296" width="148" height="42" rx="10" fill="#6E6E73" fill-opacity="1" stroke="#D8D8DC" stroke-opacity="1" stroke-width="1" opacity="1" />
+<text x="104" y="354" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Secondary</text>
+<rect x="264" y="296" width="148" height="42" rx="10" fill="#D8D8DC" fill-opacity="1" stroke="#D8D8DC" stroke-opacity="1" stroke-width="1" opacity="1" />
+<text x="272" y="354" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Separator</text>
+<rect x="432" y="296" width="148" height="42" rx="10" fill="#007AFF" fill-opacity="1" stroke="#D8D8DC" stroke-opacity="1" stroke-width="1" opacity="1" />
+<text x="440" y="354" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Accent</text>
+<rect x="600" y="296" width="148" height="42" rx="10" fill="#E8F2FF" fill-opacity="1" stroke="#D8D8DC" stroke-opacity="1" stroke-width="1" opacity="1" />
+<text x="608" y="354" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Selection</text>
+<text x="96" y="382" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="12" font-weight="650" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Typography</text>
+<text x="96" y="420" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="22" font-weight="650" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">Page title</text>
+<text x="96" y="453" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13" font-weight="650" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">Section title · 13 / Semibold</text>
+<text x="96" y="482" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13" font-weight="500" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">Schedule title · 13 / Medium</text>
+<text x="96" y="510" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Secondary metadata · 11 / Regular</text>
+<text x="96" y="538" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" fill="#98989D" text-anchor="start" opacity="1" letter-spacing="0">Caption · 10 / Regular</text>
+<text x="442" y="382" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="12" font-weight="650" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Spacing</text>
+<rect x="442" y="404" width="100" height="10" rx="5" fill="#E9E9EC" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<rect x="442" y="404" width="8.8" height="10" rx="5" fill="#007AFF" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1" opacity="0.75" />
+<text x="556" y="413" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">4</text>
+<rect x="442" y="435" width="100" height="10" rx="5" fill="#E9E9EC" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<rect x="442" y="435" width="13.200000000000001" height="10" rx="5" fill="#007AFF" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1" opacity="0.75" />
+<text x="556" y="444" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">6</text>
+<rect x="442" y="466" width="100" height="10" rx="5" fill="#E9E9EC" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<rect x="442" y="466" width="17.6" height="10" rx="5" fill="#007AFF" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1" opacity="0.75" />
+<text x="556" y="475" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">8</text>
+<rect x="442" y="497" width="100" height="10" rx="5" fill="#E9E9EC" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<rect x="442" y="497" width="26.400000000000002" height="10" rx="5" fill="#007AFF" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1" opacity="0.75" />
+<text x="556" y="506" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">12</text>
+<rect x="442" y="528" width="100" height="10" rx="5" fill="#E9E9EC" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<rect x="442" y="528" width="35.2" height="10" rx="5" fill="#007AFF" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1" opacity="0.75" />
+<text x="556" y="537" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">16</text>
+<rect x="442" y="559" width="100" height="10" rx="5" fill="#E9E9EC" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<rect x="442" y="559" width="44.0" height="10" rx="5" fill="#007AFF" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1" opacity="0.75" />
+<text x="556" y="568" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">20</text>
+<rect x="442" y="590" width="100" height="10" rx="5" fill="#E9E9EC" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<rect x="442" y="590" width="52.800000000000004" height="10" rx="5" fill="#007AFF" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1" opacity="0.75" />
+<text x="556" y="599" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">24</text>
+<rect x="442" y="621" width="100" height="10" rx="5" fill="#E9E9EC" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<rect x="442" y="621" width="70.4" height="10" rx="5" fill="#007AFF" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1" opacity="0.75" />
+<text x="556" y="630" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">32</text>
+<text x="96" y="586" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="12" font-weight="650" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Radius</text>
+<rect x="96" y="608" width="120" height="54" rx="6" fill="#F5F5F7" fill-opacity="1" stroke="#D8D8DC" stroke-opacity="1" stroke-width="1" opacity="1" />
+<text x="156" y="684" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10" font-weight="500" fill="#6E6E73" text-anchor="middle" opacity="1" letter-spacing="0">Small · 6</text>
+<rect x="256" y="608" width="120" height="54" rx="8" fill="#F5F5F7" fill-opacity="1" stroke="#D8D8DC" stroke-opacity="1" stroke-width="1" opacity="1" />
+<text x="316" y="684" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10" font-weight="500" fill="#6E6E73" text-anchor="middle" opacity="1" letter-spacing="0">Control · 8</text>
+<rect x="416" y="608" width="120" height="54" rx="12" fill="#F5F5F7" fill-opacity="1" stroke="#D8D8DC" stroke-opacity="1" stroke-width="1" opacity="1" />
+<text x="476" y="684" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10" font-weight="500" fill="#6E6E73" text-anchor="middle" opacity="1" letter-spacing="0">Popover · 12</text>
+<rect x="576" y="608" width="120" height="54" rx="14" fill="#F5F5F7" fill-opacity="1" stroke="#D8D8DC" stroke-opacity="1" stroke-width="1" opacity="1" />
+<text x="636" y="684" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10" font-weight="500" fill="#6E6E73" text-anchor="middle" opacity="1" letter-spacing="0">Panel · 14</text>
+<text x="96" y="723" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="12" font-weight="650" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Motion</text>
+<text x="96" y="748" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Hover 100ms  ·  Selection 120ms  ·  Popover 160ms  ·  Press instant</text>
+<rect x="824" y="118" width="720" height="652" rx="18" fill="#FFFFFF" fill-opacity="1" stroke="#D8D8DC" stroke-opacity="1" stroke-width="1" opacity="1" filter="url(#panelShadow)"/>
+<text x="848" y="156" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="18" font-weight="650" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">02 · Navigation</text>
+<text x="848" y="180" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Sidebar + integrated toolbar</text>
+<text x="848" y="206" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="12" font-weight="650" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Sidebar item states</text>
+<g id="icon-today-858-234">
+<rect x="860.5" y="237.5" width="11.0" height="10.0" rx="2.0" fill="none" fill-opacity="1" stroke="#6E6E73" stroke-opacity="1" stroke-width="1.6" opacity="1" />
+<line x1="863.0" y1="236.0" x2="863.0" y2="239.0" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="869.0" y1="236.0" x2="869.0" y2="239.0" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="860.5" y1="240.0" x2="871.5" y2="240.0" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<circle cx="866.0" cy="243.5" r="1.4" fill="#6E6E73" stroke="none" stroke-width="1" opacity="1"/>
+</g>
+<text x="884" y="247" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">오늘</text>
+<text x="1094" y="247" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="500" fill="#98989D" text-anchor="start" opacity="1" letter-spacing="0">Default</text>
+<rect x="848" y="274" width="220" height="32" rx="7" fill="#000000" fill-opacity="0.03137254901960784" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<g id="icon-week-858-282">
+<rect x="860.5" y="285.0" width="11.0" height="10.5" rx="2.0" fill="none" fill-opacity="1" stroke="#6E6E73" stroke-opacity="1" stroke-width="1.6" opacity="1" />
+<line x1="860.5" y1="288.0" x2="871.5" y2="288.0" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="864.2" y1="288.0" x2="864.2" y2="295.5" stroke="#6E6E73" stroke-width="1.6" opacity="0.65" stroke-linecap="round"/>
+<line x1="867.8" y1="288.0" x2="867.8" y2="295.5" stroke="#6E6E73" stroke-width="1.6" opacity="0.65" stroke-linecap="round"/>
+</g>
+<text x="884" y="295" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">주간</text>
+<text x="1094" y="295" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="500" fill="#98989D" text-anchor="start" opacity="1" letter-spacing="0">Hover</text>
+<rect x="848" y="322" width="220" height="32" rx="7" fill="#000000" fill-opacity="0.054901960784313725" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<g id="icon-month-858-330">
+<rect x="860.5" y="332.5" width="2.7" height="2.7" rx="0.7" fill="none" fill-opacity="1" stroke="#1D1D1F" stroke-opacity="1" stroke-width="1.1" opacity="1" />
+<rect x="864.6" y="332.5" width="2.7" height="2.7" rx="0.7" fill="none" fill-opacity="1" stroke="#1D1D1F" stroke-opacity="1" stroke-width="1.1" opacity="1" />
+<rect x="868.7" y="332.5" width="2.7" height="2.7" rx="0.7" fill="none" fill-opacity="1" stroke="#1D1D1F" stroke-opacity="1" stroke-width="1.1" opacity="1" />
+<rect x="860.5" y="336.6" width="2.7" height="2.7" rx="0.7" fill="none" fill-opacity="1" stroke="#1D1D1F" stroke-opacity="1" stroke-width="1.1" opacity="1" />
+<rect x="864.6" y="336.6" width="2.7" height="2.7" rx="0.7" fill="none" fill-opacity="1" stroke="#1D1D1F" stroke-opacity="1" stroke-width="1.1" opacity="1" />
+<rect x="868.7" y="336.6" width="2.7" height="2.7" rx="0.7" fill="none" fill-opacity="1" stroke="#1D1D1F" stroke-opacity="1" stroke-width="1.1" opacity="1" />
+<rect x="860.5" y="340.7" width="2.7" height="2.7" rx="0.7" fill="none" fill-opacity="1" stroke="#1D1D1F" stroke-opacity="1" stroke-width="1.1" opacity="1" />
+<rect x="864.6" y="340.7" width="2.7" height="2.7" rx="0.7" fill="none" fill-opacity="1" stroke="#1D1D1F" stroke-opacity="1" stroke-width="1.1" opacity="1" />
+<rect x="868.7" y="340.7" width="2.7" height="2.7" rx="0.7" fill="none" fill-opacity="1" stroke="#1D1D1F" stroke-opacity="1" stroke-width="1.1" opacity="1" />
+</g>
+<text x="884" y="343" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">월간</text>
+<text x="1094" y="343" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="500" fill="#98989D" text-anchor="start" opacity="1" letter-spacing="0">Selected</text>
+<text x="848" y="400" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="12" font-weight="650" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Toolbar groups</text>
+<rect x="848" y="420" width="650" height="54" rx="12" fill="#F7F7F9" fill-opacity="0.8" stroke="#D8D8DC" stroke-opacity="1" stroke-width="1" opacity="1" />
+<rect x="864" y="432" width="30" height="30" rx="8" fill="#000000" fill-opacity="0.0392156862745098" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<g id="icon-chev-l-871-439">
+<path d="M 881.50 442.50 L 877.00 447.00 L 881.50 451.50" stroke="#6E6E73" stroke-width="1.6" fill="none" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="912" y="453" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="14" font-weight="650" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">주간</text>
+<rect x="1068" y="432" width="126" height="30" rx="8" fill="#FFFFFF" fill-opacity="0.6666666666666666" stroke="#D8D8DC" stroke-opacity="1" stroke-width="1" opacity="1" />
+<g id="icon-chev-l-1078-439">
+<path d="M 1088.50 442.50 L 1084.00 447.00 L 1088.50 451.50" stroke="#6E6E73" stroke-width="1.6" fill="none" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="1131" y="452" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#6E6E73" text-anchor="middle" opacity="1" letter-spacing="0">오늘</text>
+<g id="icon-chev-r-1168-439">
+<path d="M 1173.50 442.50 L 1178.00 447.00 L 1173.50 451.50" stroke="#6E6E73" stroke-width="1.6" fill="none" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<rect x="1394" y="432" width="30" height="30" rx="8" fill="none" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<g id="icon-sort-1401-439">
+<line x1="1405.0" y1="443.0" x2="1413.0" y2="443.0" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="1406.5" y1="447.0" x2="1411.5" y2="447.0" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="1408.0" y1="451.0" x2="1410.0" y2="451.0" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+</g>
+<rect x="1436" y="432" width="30" height="30" rx="8" fill="#007AFF" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<g id="icon-plus-1443-439">
+<line x1="1451.0" y1="442.3" x2="1451.0" y2="451.7" stroke="#FFFFFF" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="1446.3" y1="447.0" x2="1455.7" y2="447.0" stroke="#FFFFFF" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+</g>
+<text x="848" y="514" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="12" font-weight="650" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Window shell</text>
+<rect x="848" y="534" width="650" height="188" rx="16" fill="#FBFBFC" fill-opacity="1" stroke="#C9C9CE" stroke-opacity="1" stroke-width="1" opacity="1" filter="url(#windowShadow)"/>
+<rect x="848" y="534" width="650" height="52" rx="16" fill="#F8F8FA" fill-opacity="0.7490196078431373" stroke="none" stroke-opacity="1" stroke-width="0" opacity="1" />
+<rect x="848" y="574" width="650" height="12" rx="0" fill="#F8F8FA" fill-opacity="0.7490196078431373" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<line x1="848" y1="586" x2="1498" y2="586" stroke="#D4D4D8" stroke-width="1" opacity="0.9" stroke-linecap="butt"/>
+<circle cx="868" cy="560" r="6" fill="#FF5F57" stroke="none" stroke-width="1" opacity="1"/>
+<circle cx="888" cy="560" r="6" fill="#FEBC2E" stroke="none" stroke-width="1" opacity="1"/>
+<circle cx="908" cy="560" r="6" fill="#28C840" stroke="none" stroke-width="1" opacity="1"/>
+<rect x="848" y="586" width="186" height="136" rx="0" fill="#F3F3F5" fill-opacity="0.8666666666666667" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<text x="866" y="616" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13" font-weight="650" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Quick Scheduler</text>
+<g id="icon-today-868-645">
+<rect x="870.5" y="648.5" width="11.0" height="10.0" rx="2.0" fill="none" fill-opacity="1" stroke="#6E6E73" stroke-opacity="1" stroke-width="1.6" opacity="1" />
+<line x1="873.0" y1="647.0" x2="873.0" y2="650.0" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="879.0" y1="647.0" x2="879.0" y2="650.0" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="870.5" y1="651.0" x2="881.5" y2="651.0" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<circle cx="876.0" cy="654.5" r="1.4" fill="#6E6E73" stroke="none" stroke-width="1" opacity="1"/>
+</g>
+<text x="894" y="658" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">오늘</text>
+<rect x="858" y="674" width="166" height="30" rx="7" fill="#000000" fill-opacity="0.050980392156862744" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<g id="icon-week-868-681">
+<rect x="870.5" y="684.0" width="11.0" height="10.5" rx="2.0" fill="none" fill-opacity="1" stroke="#1D1D1F" stroke-opacity="1" stroke-width="1.6" opacity="1" />
+<line x1="870.5" y1="687.0" x2="881.5" y2="687.0" stroke="#1D1D1F" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="874.2" y1="687.0" x2="874.2" y2="694.5" stroke="#1D1D1F" stroke-width="1.6" opacity="0.65" stroke-linecap="round"/>
+<line x1="877.8" y1="687.0" x2="877.8" y2="694.5" stroke="#1D1D1F" stroke-width="1.6" opacity="0.65" stroke-linecap="round"/>
+</g>
+<text x="894" y="694" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">주간</text>
+<g id="icon-month-868-717">
+<rect x="870.5" y="719.5" width="2.7" height="2.7" rx="0.7" fill="none" fill-opacity="1" stroke="#6E6E73" stroke-opacity="1" stroke-width="1.1" opacity="1" />
+<rect x="874.6" y="719.5" width="2.7" height="2.7" rx="0.7" fill="none" fill-opacity="1" stroke="#6E6E73" stroke-opacity="1" stroke-width="1.1" opacity="1" />
+<rect x="878.7" y="719.5" width="2.7" height="2.7" rx="0.7" fill="none" fill-opacity="1" stroke="#6E6E73" stroke-opacity="1" stroke-width="1.1" opacity="1" />
+<rect x="870.5" y="723.6" width="2.7" height="2.7" rx="0.7" fill="none" fill-opacity="1" stroke="#6E6E73" stroke-opacity="1" stroke-width="1.1" opacity="1" />
+<rect x="874.6" y="723.6" width="2.7" height="2.7" rx="0.7" fill="none" fill-opacity="1" stroke="#6E6E73" stroke-opacity="1" stroke-width="1.1" opacity="1" />
+<rect x="878.7" y="723.6" width="2.7" height="2.7" rx="0.7" fill="none" fill-opacity="1" stroke="#6E6E73" stroke-opacity="1" stroke-width="1.1" opacity="1" />
+<rect x="870.5" y="727.7" width="2.7" height="2.7" rx="0.7" fill="none" fill-opacity="1" stroke="#6E6E73" stroke-opacity="1" stroke-width="1.1" opacity="1" />
+<rect x="874.6" y="727.7" width="2.7" height="2.7" rx="0.7" fill="none" fill-opacity="1" stroke="#6E6E73" stroke-opacity="1" stroke-width="1.1" opacity="1" />
+<rect x="878.7" y="727.7" width="2.7" height="2.7" rx="0.7" fill="none" fill-opacity="1" stroke="#6E6E73" stroke-opacity="1" stroke-width="1.1" opacity="1" />
+</g>
+<text x="894" y="730" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">월간</text>
+<line x1="864" y1="670" x2="1018" y2="670" stroke="#D7D7DB" stroke-width="1" opacity="0.9" stroke-linecap="round"/>
+<g id="icon-gear-868-682">
+<circle cx="876.0" cy="690.0" r="3.0" fill="none" stroke="#6E6E73" stroke-width="1.6" opacity="1"/>
+<circle cx="876.0" cy="690.0" r="1.2" fill="none" stroke="#6E6E73" stroke-width="1.6" opacity="1"/>
+<line x1="876.0" y1="683.5" x2="876.0" y2="685.2" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="876.0" y1="694.8" x2="876.0" y2="696.5" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="869.5" y1="690.0" x2="871.2" y2="690.0" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="880.8" y1="690.0" x2="882.5" y2="690.0" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="871.1" y1="685.1" x2="872.4" y2="686.4" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="879.6" y1="693.6" x2="880.9" y2="694.9" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="879.6" y1="686.4" x2="880.9" y2="685.1" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="871.1" y1="694.9" x2="872.4" y2="693.6" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+</g>
+<text x="894" y="695" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">설정</text>
+<text x="1060" y="616" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">9월 7일 – 9월 20일</text>
+<text x="1060" y="648" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13" font-weight="650" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">이번 주 할 일</text>
+<line x1="1060" y1="664" x2="1466" y2="664" stroke="#E1E1E4" stroke-width="1" opacity="1" stroke-linecap="round"/>
+<text x="1060" y="698" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10" font-weight="500" fill="#98989D" text-anchor="start" opacity="1" letter-spacing="0">Integrated title / toolbar · sidebar as material layer</text>
+<rect x="1576" y="118" width="720" height="652" rx="18" fill="#FFFFFF" fill-opacity="1" stroke="#D8D8DC" stroke-opacity="1" stroke-width="1" opacity="1" filter="url(#panelShadow)"/>
+<text x="1600" y="156" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="18" font-weight="650" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">03 · Controls</text>
+<text x="1600" y="180" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Low-bezel, state-first components</text>
+<text x="1600" y="206" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="12" font-weight="650" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Icon buttons</text>
+<rect x="1600" y="226" width="32" height="32" rx="8" fill="none" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<g id="icon-plus-1608-234">
+<line x1="1616.0" y1="237.3" x2="1616.0" y2="246.7" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="1611.3" y1="242.0" x2="1620.7" y2="242.0" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+</g>
+<text x="1616" y="274" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="500" fill="#98989D" text-anchor="middle" opacity="1" letter-spacing="0">Default</text>
+<rect x="1654" y="226" width="32" height="32" rx="8" fill="#000000" fill-opacity="0.0392156862745098" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<g id="icon-plus-1662-234">
+<line x1="1670.0" y1="237.3" x2="1670.0" y2="246.7" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="1665.3" y1="242.0" x2="1674.7" y2="242.0" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+</g>
+<text x="1670" y="274" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="500" fill="#98989D" text-anchor="middle" opacity="1" letter-spacing="0">Hover</text>
+<rect x="1708" y="226" width="32" height="32" rx="8" fill="#000000" fill-opacity="0.0784313725490196" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<g id="icon-plus-1716-234">
+<line x1="1724.0" y1="237.3" x2="1724.0" y2="246.7" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="1719.3" y1="242.0" x2="1728.7" y2="242.0" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+</g>
+<text x="1724" y="274" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="500" fill="#98989D" text-anchor="middle" opacity="1" letter-spacing="0">Pressed</text>
+<rect x="1762" y="226" width="32" height="32" rx="8" fill="#007AFF" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<g id="icon-plus-1770-234">
+<line x1="1778.0" y1="237.3" x2="1778.0" y2="246.7" stroke="#FFFFFF" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="1773.3" y1="242.0" x2="1782.7" y2="242.0" stroke="#FFFFFF" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+</g>
+<text x="1778" y="274" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="500" fill="#98989D" text-anchor="middle" opacity="1" letter-spacing="0">Accent</text>
+<text x="1600" y="314" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="12" font-weight="650" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Checkbox</text>
+<circle cx="1608" cy="340" r="7" fill="#FFFFFF" stroke="#B8B8BD" stroke-width="1.2" opacity="1"/>
+<text x="1608" y="368" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="500" fill="#98989D" text-anchor="middle" opacity="1" letter-spacing="0">Off</text>
+<circle cx="1664" cy="340" r="7" fill="#FFFFFF" stroke="#8E8E93" stroke-width="1.2" opacity="1"/>
+<text x="1664" y="368" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="500" fill="#98989D" text-anchor="middle" opacity="1" letter-spacing="0">Hover</text>
+<circle cx="1720" cy="340" r="7" fill="#007AFF" stroke="#007AFF" stroke-width="1" opacity="1"/>
+<g id="icon-check-1714-334">
+<path d="M 1716.76875 340.20625 L 1719.175 342.3375 L 1723.3 337.8" stroke="#FFFFFF" stroke-width="1.2375" fill="none" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="1720" y="368" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="500" fill="#98989D" text-anchor="middle" opacity="1" letter-spacing="0">On</text>
+<text x="1834" y="206" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="12" font-weight="650" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Buttons</text>
+<rect x="1834" y="226" width="108" height="32" rx="8" fill="#007AFF" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<text x="1888" y="247" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="650" fill="#FFFFFF" text-anchor="middle" opacity="1" letter-spacing="0">일정 추가</text>
+<rect x="1954" y="226" width="108" height="32" rx="8" fill="#F1F1F3" fill-opacity="1" stroke="#D8D8DC" stroke-opacity="1" stroke-width="1" opacity="1" />
+<text x="2008" y="247" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#6E6E73" text-anchor="middle" opacity="1" letter-spacing="0">취소</text>
+<rect x="2074" y="226" width="108" height="32" rx="8" fill="none" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<text x="2128" y="247" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#007AFF" text-anchor="middle" opacity="1" letter-spacing="0">모두 보기</text>
+<text x="1600" y="412" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="12" font-weight="650" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Text field</text>
+<rect x="1600" y="432" width="430" height="38" rx="9" fill="#FFFFFF" fill-opacity="1" stroke="#D8D8DC" stroke-opacity="1" stroke-width="1" opacity="1" />
+<text x="1614" y="456" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="12" font-weight="450" fill="#98989D" text-anchor="start" opacity="1" letter-spacing="0">일정 제목을 입력하세요</text>
+<rect x="1600" y="484" width="430" height="40" rx="10" fill="#FFFFFF" fill-opacity="1" stroke="#007AFF" stroke-opacity="1" stroke-width="1.6" opacity="1" />
+<text x="1614" y="509" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="500" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">내일 6시 프로젝트 회의</text>
+<text x="2052" y="412" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="12" font-weight="650" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Search</text>
+<rect x="2052" y="432" width="190" height="32" rx="9" fill="#F0F0F2" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<g id="icon-search-2064-440">
+<circle cx="2071.0" cy="447.0" r="4.0" fill="none" stroke="#98989D" stroke-width="1.6" opacity="1"/>
+<line x1="2074.2" y1="450.2" x2="2077.5" y2="453.5" stroke="#98989D" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+</g>
+<text x="2086" y="453" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="450" fill="#98989D" text-anchor="start" opacity="1" letter-spacing="0">일정 검색</text>
+<text x="1600" y="570" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="12" font-weight="650" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Segmented control</text>
+<rect x="1600" y="588" width="252" height="32" rx="9" fill="#ECECEE" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<rect x="1602" y="590" width="82" height="28" rx="7" fill="#FFFFFF" fill-opacity="1" stroke="#D8D8DC" stroke-opacity="1" stroke-width="1" opacity="1" filter="url(#panelShadow)"/>
+<text x="1643" y="609" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" fill="#1D1D1F" text-anchor="middle" opacity="1" letter-spacing="0">시간</text>
+<text x="1727" y="609" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11" font-weight="500" fill="#6E6E73" text-anchor="middle" opacity="1" letter-spacing="0">중요도</text>
+<text x="1811" y="609" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11" font-weight="500" fill="#6E6E73" text-anchor="middle" opacity="1" letter-spacing="0">작성순</text>
+<text x="1896" y="570" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="12" font-weight="650" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Toggle</text>
+<rect x="1896" y="588" width="42" height="24" rx="12" fill="#007AFF" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<circle cx="1926" cy="600" r="9" fill="#FFFFFF" stroke="none" stroke-width="1" opacity="1"/>
+<text x="1952" y="604" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">오후로 해석</text>
+<text x="1600" y="664" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="12" font-weight="650" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Pull-down / sort menu</text>
+<rect x="1600" y="680" width="252" height="70" rx="12" fill="#FFFFFF" fill-opacity="0.9333333333333333" stroke="#D6D6DA" stroke-opacity="1" stroke-width="1" opacity="1" filter="url(#popoverShadow)"/>
+<text x="1616" y="705" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="500" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">시간 순</text>
+<g id="icon-check-1820-692">
+<path d="M 1822.8875 699.2625 L 1825.95 701.975 L 1831.2 696.2" stroke="#007AFF" stroke-width="1.575" fill="none" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="1616" y="732" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="500" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">중요도 순</text>
+<rect x="2328" y="118" width="840" height="652" rx="18" fill="#FFFFFF" fill-opacity="1" stroke="#D8D8DC" stroke-opacity="1" stroke-width="1" opacity="1" filter="url(#panelShadow)"/>
+<text x="2352" y="156" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="18" font-weight="650" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">04 · Schedule components</text>
+<text x="2352" y="180" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Rows instead of cards</text>
+<text x="2352" y="206" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="12" font-weight="650" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Schedule row states · 44px</text>
+<circle cx="2370" cy="248" r="7" fill="#FFFFFF" stroke="#B8B8BD" stroke-width="1.2" opacity="1"/>
+<text x="2390" y="245" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13" font-weight="500" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">프로젝트 회의</text>
+<text x="2390" y="261" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#98989D" text-anchor="start" opacity="1" letter-spacing="0">오후 2:00</text>
+<circle cx="2848" cy="248" r="3.3" fill="#FF3B30" stroke="none" stroke-width="1" opacity="1"/>
+<line x1="2390" y1="269" x2="2884" y2="269" stroke="#E6E6E9" stroke-width="1" opacity="0.9" stroke-linecap="butt"/>
+<text x="2918" y="253" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="500" fill="#98989D" text-anchor="start" opacity="1" letter-spacing="0">Default</text>
+<rect x="2352" y="284" width="540" height="44" rx="8" fill="#000000" fill-opacity="0.03137254901960784" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<circle cx="2370" cy="306" r="7" fill="#FFFFFF" stroke="#B8B8BD" stroke-width="1.2" opacity="1"/>
+<text x="2390" y="303" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13" font-weight="500" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">과제 제출</text>
+<text x="2390" y="319" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#98989D" text-anchor="start" opacity="1" letter-spacing="0">오후 5:30</text>
+<circle cx="2848" cy="306" r="3.3" fill="#FF9F0A" stroke="none" stroke-width="1" opacity="1"/>
+<rect x="2860" y="291" width="26" height="26" rx="8" fill="#000000" fill-opacity="0.0392156862745098" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<g id="icon-ellipsis-2865-296">
+<circle cx="2869.0" cy="304.0" r="1.15" fill="#6E6E73" stroke="none" stroke-width="1" opacity="1"/>
+<circle cx="2873.0" cy="304.0" r="1.15" fill="#6E6E73" stroke="none" stroke-width="1" opacity="1"/>
+<circle cx="2877.0" cy="304.0" r="1.15" fill="#6E6E73" stroke="none" stroke-width="1" opacity="1"/>
+</g>
+<line x1="2390" y1="327" x2="2884" y2="327" stroke="#E6E6E9" stroke-width="1" opacity="0.9" stroke-linecap="butt"/>
+<text x="2918" y="311" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="500" fill="#98989D" text-anchor="start" opacity="1" letter-spacing="0">Hover</text>
+<rect x="2352" y="342" width="540" height="44" rx="8" fill="#E8F2FF" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<circle cx="2370" cy="364" r="7" fill="#FFFFFF" stroke="#B8B8BD" stroke-width="1.2" opacity="1"/>
+<text x="2390" y="361" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13" font-weight="500" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">병원 예약</text>
+<text x="2390" y="377" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#98989D" text-anchor="start" opacity="1" letter-spacing="0">오전 11:00</text>
+<line x1="2390" y1="385" x2="2884" y2="385" stroke="#E6E6E9" stroke-width="1" opacity="0.9" stroke-linecap="butt"/>
+<text x="2918" y="369" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="500" fill="#98989D" text-anchor="start" opacity="1" letter-spacing="0">Selected</text>
+<circle cx="2370" cy="422" r="7" fill="#007AFF" stroke="#007AFF" stroke-width="1" opacity="1"/>
+<g id="icon-check-2364-416">
+<path d="M 2366.76875 422.20625 L 2369.175 424.3375 L 2373.3 419.8" stroke="#FFFFFF" stroke-width="1.2375" fill="none" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="2390" y="419" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13" font-weight="500" fill="#98989D" text-anchor="start" opacity="1" letter-spacing="0">운동</text>
+<text x="2390" y="435" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#98989D" text-anchor="start" opacity="1" letter-spacing="0">오후 8:00</text>
+<circle cx="2848" cy="422" r="3.3" fill="#007AFF" stroke="none" stroke-width="1" opacity="1"/>
+<line x1="2390" y1="443" x2="2884" y2="443" stroke="#E6E6E9" stroke-width="1" opacity="0.9" stroke-linecap="butt"/>
+<text x="2918" y="427" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="500" fill="#98989D" text-anchor="start" opacity="1" letter-spacing="0">Completed</text>
+<text x="2352" y="478" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="12" font-weight="650" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Metadata &amp; badges</text>
+<rect x="2352" y="498" width="72" height="24" rx="12" fill="#FFF0EF" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<text x="2388.0" y="514" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" fill="#FF3B30" text-anchor="middle" opacity="1" letter-spacing="0">중요</text>
+<rect x="2432" y="498" width="72" height="24" rx="12" fill="#FFF6E8" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<text x="2468.0" y="514" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" fill="#C67600" text-anchor="middle" opacity="1" letter-spacing="0">보통</text>
+<rect x="2512" y="498" width="72" height="24" rx="12" fill="#EAF4FF" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<text x="2548.0" y="514" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" fill="#007AFF" text-anchor="middle" opacity="1" letter-spacing="0">낮음</text>
+<text x="2352" y="562" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="12" font-weight="650" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Section header</text>
+<text x="2352" y="596" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13" font-weight="650" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">오늘 할 일</text>
+<text x="3058" y="596" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="16" font-weight="550" fill="#6E6E73" text-anchor="middle" opacity="1" letter-spacing="0">↕</text>
+<line x1="2352" y1="612" x2="3120" y2="612" stroke="#E2E2E5" stroke-width="1" opacity="1" stroke-linecap="round"/>
+<text x="2352" y="656" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="12" font-weight="650" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Empty state</text>
+<circle cx="2386" cy="704" r="20" fill="#F0F0F2" stroke="none" stroke-width="1" opacity="1"/>
+<g id="icon-check-2378-696">
+<path d="M 2381.3 704.3 L 2384.8 707.4 L 2390.8 700.8" stroke="#98989D" stroke-width="1.6" fill="none" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="2420" y="699" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">오늘 일정이 없습니다</text>
+<text x="2420" y="719" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#98989D" text-anchor="start" opacity="1" letter-spacing="0">새 일정을 추가하거나 다른 날짜를 선택하세요.</text>
+<rect x="72" y="802" width="1472" height="660" rx="18" fill="#FFFFFF" fill-opacity="1" stroke="#D8D8DC" stroke-opacity="1" stroke-width="1" opacity="1" filter="url(#panelShadow)"/>
+<text x="96" y="840" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="18" font-weight="650" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">05 · Calendar system</text>
+<text x="96" y="864" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Thin separators, selective accent</text>
+<text x="96" y="890" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="12" font-weight="650" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Calendar day states</text>
+<rect x="96" y="910" width="116" height="104" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="108" y="932" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">7</text>
+<text x="154" y="1030" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="9.8" font-weight="500" fill="#98989D" text-anchor="middle" opacity="1" letter-spacing="0">Normal</text>
+<rect x="228" y="910" width="116" height="104" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<circle cx="246" cy="927" r="12" fill="#007AFF" stroke="none" stroke-width="1" opacity="1"/>
+<text x="246" y="931" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11" font-weight="650" fill="#FFFFFF" text-anchor="middle" opacity="1" letter-spacing="0">8</text>
+<circle cx="241" cy="941" r="2.5" fill="#007AFF" stroke="none" stroke-width="1" opacity="1"/>
+<text x="249" y="945" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">회의</text>
+<text x="286" y="1030" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="9.8" font-weight="500" fill="#98989D" text-anchor="middle" opacity="1" letter-spacing="0">Today</text>
+<rect x="360" y="910" width="116" height="104" rx="0" fill="#EAF3FF" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="372" y="932" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">9</text>
+<circle cx="373" cy="941" r="2.5" fill="#007AFF" stroke="none" stroke-width="1" opacity="1"/>
+<text x="381" y="945" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">회의</text>
+<text x="418" y="1030" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="9.8" font-weight="500" fill="#98989D" text-anchor="middle" opacity="1" letter-spacing="0">Selected</text>
+<rect x="492" y="910" width="116" height="104" rx="0" fill="#000000" fill-opacity="0.0196078431372549" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="504" y="932" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">10</text>
+<text x="550" y="1030" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="9.8" font-weight="500" fill="#98989D" text-anchor="middle" opacity="1" letter-spacing="0">Hover</text>
+<rect x="624" y="910" width="116" height="104" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="636" y="932" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#98989D" text-anchor="start" opacity="1" letter-spacing="0">31</text>
+<text x="682" y="1030" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="9.8" font-weight="500" fill="#98989D" text-anchor="middle" opacity="1" letter-spacing="0">Outside</text>
+<text x="96" y="1076" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="12" font-weight="650" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">2-week calendar</text>
+<text x="142.0" y="1104" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#98989D" text-anchor="middle" opacity="1" letter-spacing="0">월</text>
+<text x="234.0" y="1104" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#98989D" text-anchor="middle" opacity="1" letter-spacing="0">화</text>
+<text x="326.0" y="1104" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#98989D" text-anchor="middle" opacity="1" letter-spacing="0">수</text>
+<text x="418.0" y="1104" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#98989D" text-anchor="middle" opacity="1" letter-spacing="0">목</text>
+<text x="510.0" y="1104" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#98989D" text-anchor="middle" opacity="1" letter-spacing="0">금</text>
+<text x="602.0" y="1104" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#98989D" text-anchor="middle" opacity="1" letter-spacing="0">토</text>
+<text x="694.0" y="1104" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#98989D" text-anchor="middle" opacity="1" letter-spacing="0">일</text>
+<rect x="96" y="1118" width="92" height="96" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<circle cx="114" cy="1135" r="12" fill="#007AFF" stroke="none" stroke-width="1" opacity="1"/>
+<text x="114" y="1139" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11" font-weight="650" fill="#FFFFFF" text-anchor="middle" opacity="1" letter-spacing="0">7</text>
+<rect x="188" y="1118" width="92" height="96" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="200" y="1140" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">8</text>
+<rect x="280" y="1118" width="92" height="96" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="292" y="1140" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">9</text>
+<rect x="372" y="1118" width="92" height="96" rx="0" fill="#EAF3FF" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="384" y="1140" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">10</text>
+<circle cx="385" cy="1149" r="2.5" fill="#AF52DE" stroke="none" stroke-width="1" opacity="1"/>
+<text x="393" y="1153" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">발표</text>
+<circle cx="385" cy="1166" r="2.5" fill="#007AFF" stroke="none" stroke-width="1" opacity="1"/>
+<text x="393" y="1170" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">스터디</text>
+<rect x="464" y="1118" width="92" height="96" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="476" y="1140" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">11</text>
+<rect x="556" y="1118" width="92" height="96" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="568" y="1140" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">12</text>
+<rect x="648" y="1118" width="92" height="96" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="660" y="1140" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">13</text>
+<rect x="96" y="1214" width="92" height="96" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="108" y="1236" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">14</text>
+<circle cx="109" cy="1245" r="2.5" fill="#FF3B30" stroke="none" stroke-width="1" opacity="1"/>
+<text x="117" y="1249" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">마감</text>
+<rect x="188" y="1214" width="92" height="96" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="200" y="1236" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">15</text>
+<rect x="280" y="1214" width="92" height="96" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="292" y="1236" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">16</text>
+<rect x="372" y="1214" width="92" height="96" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="384" y="1236" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">17</text>
+<rect x="464" y="1214" width="92" height="96" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="476" y="1236" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">18</text>
+<rect x="556" y="1214" width="92" height="96" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="568" y="1236" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">19</text>
+<rect x="648" y="1214" width="92" height="96" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="660" y="1236" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">20</text>
+<text x="812" y="892" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="12" font-weight="650" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Selected date detail</text>
+<rect x="812" y="910" width="684" height="320" rx="14" fill="#F8F8FA" fill-opacity="1" stroke="#D8D8DC" stroke-opacity="1" stroke-width="1" opacity="1" />
+<text x="832" y="942" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="16" font-weight="650" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">9월 10일 목요일</text>
+<text x="832" y="968" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="500" fill="#98989D" text-anchor="start" opacity="1" letter-spacing="0">2개의 일정</text>
+<circle cx="844" cy="1006" r="7" fill="#FFFFFF" stroke="#B8B8BD" stroke-width="1.2" opacity="1"/>
+<text x="864" y="1003" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13" font-weight="500" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">발표 준비</text>
+<text x="864" y="1019" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#98989D" text-anchor="start" opacity="1" letter-spacing="0">오후 4:00</text>
+<circle cx="1438" cy="1006" r="3.3" fill="#FF3B30" stroke="none" stroke-width="1" opacity="1"/>
+<line x1="864" y1="1027" x2="1474" y2="1027" stroke="#E6E6E9" stroke-width="1" opacity="0.9" stroke-linecap="butt"/>
+<circle cx="844" cy="1060" r="7" fill="#FFFFFF" stroke="#B8B8BD" stroke-width="1.2" opacity="1"/>
+<text x="864" y="1057" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13" font-weight="500" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">COW 스터디</text>
+<text x="864" y="1073" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#98989D" text-anchor="start" opacity="1" letter-spacing="0">오후 7:30</text>
+<circle cx="1438" cy="1060" r="3.3" fill="#007AFF" stroke="none" stroke-width="1" opacity="1"/>
+<line x1="864" y1="1081" x2="1474" y2="1081" stroke="#E6E6E9" stroke-width="1" opacity="0.9" stroke-linecap="butt"/>
+<line x1="832" y1="1110" x2="1476" y2="1110" stroke="#DEDEE2" stroke-width="1" opacity="1" stroke-linecap="round"/>
+<text x="832" y="1142" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11" font-weight="650" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Quick action</text>
+<rect x="832" y="1160" width="132" height="32" rx="8" fill="#007AFF" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<g id="icon-plus-842-1168">
+<line x1="850.0" y1="1171.3" x2="850.0" y2="1180.7" stroke="#FFFFFF" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="845.3" y1="1176.0" x2="854.7" y2="1176.0" stroke="#FFFFFF" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+</g>
+<text x="900" y="1181" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="650" fill="#FFFFFF" text-anchor="middle" opacity="1" letter-spacing="0">일정 추가</text>
+<rect x="1576" y="802" width="1592" height="660" rx="18" fill="#FFFFFF" fill-opacity="1" stroke="#D8D8DC" stroke-opacity="1" stroke-width="1" opacity="1" filter="url(#panelShadow)"/>
+<text x="1600" y="840" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="18" font-weight="650" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">06 · Floating surfaces</text>
+<text x="1600" y="864" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Material only for controls, navigation, popovers</text>
+<text x="1600" y="890" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="12" font-weight="650" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Quick Create · signature surface</text>
+<rect x="1600" y="912" width="700" height="360" rx="18" fill="#FFFFFF" fill-opacity="0.9098039215686274" stroke="#D4D4D8" stroke-opacity="1" stroke-width="1" opacity="1" filter="url(#popoverShadow)"/>
+<text x="1624" y="948" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="15" font-weight="650" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">새 일정</text>
+<text x="1624" y="975" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="450" fill="#98989D" text-anchor="start" opacity="1" letter-spacing="0">자연어로 빠르게 추가</text>
+<rect x="1624" y="998" width="652" height="48" rx="11" fill="#F7F7F8" fill-opacity="1" stroke="#D8D8DC" stroke-opacity="1" stroke-width="1" opacity="1" />
+<text x="1640" y="1028" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="14" font-weight="500" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">내일 6시 프로젝트 회의</text>
+<line x1="1624" y1="1066" x2="2276" y2="1066" stroke="#E2E2E5" stroke-width="1" opacity="1" stroke-linecap="round"/>
+<g id="icon-calendar-1626-1088">
+<rect x="1628.5" y="1091.5" width="11.0" height="10.0" rx="2.0" fill="none" fill-opacity="1" stroke="#6E6E73" stroke-opacity="1" stroke-width="1.6" opacity="1" />
+<line x1="1628.5" y1="1094.5" x2="1639.5" y2="1094.5" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="1631.0" y1="1090.0" x2="1631.0" y2="1093.0" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="1637.0" y1="1090.0" x2="1637.0" y2="1093.0" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+</g>
+<text x="1652" y="1101" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">내일 · 9월 8일</text>
+<g id="icon-clock-1790-1088">
+<circle cx="1798.0" cy="1096.0" r="5.2" fill="none" stroke="#6E6E73" stroke-width="1.6" opacity="1"/>
+<path d="M 1798.0 1093.0 L 1798.0 1096.3 L 1800.5 1097.6" stroke="#6E6E73" stroke-width="1.6" fill="none" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="1816" y="1101" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">오후 6:00</text>
+<rect x="1624" y="1132" width="78" height="24" rx="12" fill="#FFF0EF" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<text x="1663.0" y="1148" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" fill="#FF3B30" text-anchor="middle" opacity="1" letter-spacing="0">중요</text>
+<rect x="2072" y="1200" width="84" height="34" rx="9" fill="#F0F0F2" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<text x="2114" y="1222" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#6E6E73" text-anchor="middle" opacity="1" letter-spacing="0">취소</text>
+<rect x="2166" y="1200" width="110" height="34" rx="9" fill="#007AFF" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<text x="2221" y="1222" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="650" fill="#FFFFFF" text-anchor="middle" opacity="1" letter-spacing="0">추가  ↵</text>
+<text x="2352" y="890" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="12" font-weight="650" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Context menu</text>
+<rect x="2352" y="912" width="256" height="184" rx="12" fill="#FFFFFF" fill-opacity="0.9411764705882353" stroke="#D6D6DA" stroke-opacity="1" stroke-width="1" opacity="1" filter="url(#popoverShadow)"/>
+<text x="2370" y="941" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="500" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">일정 수정</text>
+<text x="2370" y="972" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="500" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">복제</text>
+<text x="2370" y="1003" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="500" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">완료로 표시</text>
+<line x1="2364" y1="1027" x2="2596" y2="1027" stroke="#E4E4E6" stroke-width="1" opacity="1" stroke-linecap="round"/>
+<text x="2370" y="1049" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="500" fill="#FF3B30" text-anchor="start" opacity="1" letter-spacing="0">삭제</text>
+<text x="2656" y="890" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="12" font-weight="650" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Tooltip / toast</text>
+<rect x="2656" y="912" width="154" height="32" rx="8" fill="#1C1C1E" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<text x="2733" y="933" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#FFFFFF" text-anchor="middle" opacity="1" letter-spacing="0">정렬 옵션</text>
+<rect x="2656" y="976" width="420" height="54" rx="14" fill="#FFFFFF" fill-opacity="0.9254901960784314" stroke="#D6D6DA" stroke-opacity="1" stroke-width="1" opacity="1" filter="url(#popoverShadow)"/>
+<circle cx="2680" cy="1003" r="10" fill="#E8F7EC" stroke="none" stroke-width="1" opacity="1"/>
+<g id="icon-check-2674-997">
+<path d="M 2676.475 1003.225 L 2679.1 1005.55 L 2683.6 1000.6" stroke="#34C759" stroke-width="1.5" fill="none" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="2700" y="1001" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">일정을 완료했습니다</text>
+<text x="2700" y="1018" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#007AFF" text-anchor="start" opacity="1" letter-spacing="0">실행 취소</text>
+<text x="2352" y="1146" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="12" font-weight="650" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Dark material preview</text>
+<rect x="2352" y="1168" width="724" height="104" rx="16" fill="#1C1C1E" fill-opacity="0.9215686274509803" stroke="#3A3A3C" stroke-opacity="1" stroke-width="1" opacity="1" filter="url(#popoverShadow)"/>
+<text x="2374" y="1201" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13" font-weight="650" fill="#FFFFFF" text-anchor="start" opacity="1" letter-spacing="0">월간 보기</text>
+<text x="2374" y="1226" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="450" fill="#AFAFB5" text-anchor="start" opacity="1" letter-spacing="0">다크 모드 토큰을 추가해도 레이아웃 수치는 그대로 유지</text>
+<rect x="2902" y="1194" width="144" height="32" rx="9" fill="#2C2C2E" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<text x="2974" y="1215" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" fill="#FFFFFF" text-anchor="middle" opacity="1" letter-spacing="0">오늘로 이동</text>
+<text x="72" y="1492" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="14" font-weight="650" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Screen A · Today</text>
+<rect x="72" y="1510" width="1000" height="1018" rx="16" fill="#FBFBFC" fill-opacity="1" stroke="#C9C9CE" stroke-opacity="1" stroke-width="1" opacity="1" filter="url(#windowShadow)"/>
+<rect x="72" y="1510" width="1000" height="52" rx="16" fill="#F8F8FA" fill-opacity="0.7490196078431373" stroke="none" stroke-opacity="1" stroke-width="0" opacity="1" />
+<rect x="72" y="1550" width="1000" height="12" rx="0" fill="#F8F8FA" fill-opacity="0.7490196078431373" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<line x1="72" y1="1562" x2="1072" y2="1562" stroke="#D4D4D8" stroke-width="1" opacity="0.9" stroke-linecap="butt"/>
+<circle cx="92" cy="1536" r="6" fill="#FF5F57" stroke="none" stroke-width="1" opacity="1"/>
+<circle cx="112" cy="1536" r="6" fill="#FEBC2E" stroke="none" stroke-width="1" opacity="1"/>
+<circle cx="132" cy="1536" r="6" fill="#28C840" stroke="none" stroke-width="1" opacity="1"/>
+<rect x="72" y="1562" width="220" height="966" rx="0" fill="#F3F3F5" fill-opacity="0.8666666666666667" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<text x="90" y="1592" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13" font-weight="650" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Quick Scheduler</text>
+<rect x="82" y="1614" width="200" height="30" rx="7" fill="#000000" fill-opacity="0.050980392156862744" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<g id="icon-today-92-1621">
+<rect x="94.5" y="1624.5" width="11.0" height="10.0" rx="2.0" fill="none" fill-opacity="1" stroke="#1D1D1F" stroke-opacity="1" stroke-width="1.6" opacity="1" />
+<line x1="97.0" y1="1623.0" x2="97.0" y2="1626.0" stroke="#1D1D1F" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="103.0" y1="1623.0" x2="103.0" y2="1626.0" stroke="#1D1D1F" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="94.5" y1="1627.0" x2="105.5" y2="1627.0" stroke="#1D1D1F" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<circle cx="100.0" cy="1630.5" r="1.4" fill="#1D1D1F" stroke="none" stroke-width="1" opacity="1"/>
+</g>
+<text x="118" y="1634" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">오늘</text>
+<g id="icon-week-92-1657">
+<rect x="94.5" y="1660.0" width="11.0" height="10.5" rx="2.0" fill="none" fill-opacity="1" stroke="#6E6E73" stroke-opacity="1" stroke-width="1.6" opacity="1" />
+<line x1="94.5" y1="1663.0" x2="105.5" y2="1663.0" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="98.2" y1="1663.0" x2="98.2" y2="1670.5" stroke="#6E6E73" stroke-width="1.6" opacity="0.65" stroke-linecap="round"/>
+<line x1="101.8" y1="1663.0" x2="101.8" y2="1670.5" stroke="#6E6E73" stroke-width="1.6" opacity="0.65" stroke-linecap="round"/>
+</g>
+<text x="118" y="1670" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">주간</text>
+<g id="icon-month-92-1693">
+<rect x="94.5" y="1695.5" width="2.7" height="2.7" rx="0.7" fill="none" fill-opacity="1" stroke="#6E6E73" stroke-opacity="1" stroke-width="1.1" opacity="1" />
+<rect x="98.6" y="1695.5" width="2.7" height="2.7" rx="0.7" fill="none" fill-opacity="1" stroke="#6E6E73" stroke-opacity="1" stroke-width="1.1" opacity="1" />
+<rect x="102.7" y="1695.5" width="2.7" height="2.7" rx="0.7" fill="none" fill-opacity="1" stroke="#6E6E73" stroke-opacity="1" stroke-width="1.1" opacity="1" />
+<rect x="94.5" y="1699.6" width="2.7" height="2.7" rx="0.7" fill="none" fill-opacity="1" stroke="#6E6E73" stroke-opacity="1" stroke-width="1.1" opacity="1" />
+<rect x="98.6" y="1699.6" width="2.7" height="2.7" rx="0.7" fill="none" fill-opacity="1" stroke="#6E6E73" stroke-opacity="1" stroke-width="1.1" opacity="1" />
+<rect x="102.7" y="1699.6" width="2.7" height="2.7" rx="0.7" fill="none" fill-opacity="1" stroke="#6E6E73" stroke-opacity="1" stroke-width="1.1" opacity="1" />
+<rect x="94.5" y="1703.7" width="2.7" height="2.7" rx="0.7" fill="none" fill-opacity="1" stroke="#6E6E73" stroke-opacity="1" stroke-width="1.1" opacity="1" />
+<rect x="98.6" y="1703.7" width="2.7" height="2.7" rx="0.7" fill="none" fill-opacity="1" stroke="#6E6E73" stroke-opacity="1" stroke-width="1.1" opacity="1" />
+<rect x="102.7" y="1703.7" width="2.7" height="2.7" rx="0.7" fill="none" fill-opacity="1" stroke="#6E6E73" stroke-opacity="1" stroke-width="1.1" opacity="1" />
+</g>
+<text x="118" y="1706" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">월간</text>
+<line x1="88" y1="2476" x2="276" y2="2476" stroke="#D7D7DB" stroke-width="1" opacity="0.9" stroke-linecap="round"/>
+<g id="icon-gear-92-2488">
+<circle cx="100.0" cy="2496.0" r="3.0" fill="none" stroke="#6E6E73" stroke-width="1.6" opacity="1"/>
+<circle cx="100.0" cy="2496.0" r="1.2" fill="none" stroke="#6E6E73" stroke-width="1.6" opacity="1"/>
+<line x1="100.0" y1="2489.5" x2="100.0" y2="2491.2" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="100.0" y1="2500.8" x2="100.0" y2="2502.5" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="93.5" y1="2496.0" x2="95.2" y2="2496.0" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="104.8" y1="2496.0" x2="106.5" y2="2496.0" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="95.1" y1="2491.1" x2="96.4" y2="2492.4" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="103.6" y1="2499.6" x2="104.9" y2="2500.9" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="103.6" y1="2492.4" x2="104.9" y2="2491.1" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="95.1" y1="2500.9" x2="96.4" y2="2499.6" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+</g>
+<text x="118" y="2501" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">설정</text>
+<text x="318" y="1543" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="14" font-weight="650" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">오늘</text>
+<rect x="938" y="1521" width="30" height="30" rx="8" fill="none" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<g id="icon-sort-945-1528">
+<line x1="949.0" y1="1532.0" x2="957.0" y2="1532.0" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="950.5" y1="1536.0" x2="955.5" y2="1536.0" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="952.0" y1="1540.0" x2="954.0" y2="1540.0" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+</g>
+<rect x="982" y="1521" width="30" height="30" rx="8" fill="#007AFF" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<g id="icon-plus-989-1528">
+<line x1="997.0" y1="1531.3" x2="997.0" y2="1540.7" stroke="#FFFFFF" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="992.3" y1="1536.0" x2="1001.7" y2="1536.0" stroke="#FFFFFF" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+</g>
+<text x="332" y="1606" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">오늘</text>
+<text x="332" y="1632" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">9월 7일 월요일</text>
+<text x="332" y="1686" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13.5" font-weight="650" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">오늘 할 일</text>
+<text x="1000" y="1686" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="16" font-weight="550" fill="#6E6E73" text-anchor="middle" opacity="1" letter-spacing="0">↕</text>
+<line x1="332" y1="1702" x2="1020" y2="1702" stroke="#E1E1E4" stroke-width="1" opacity="1" stroke-linecap="round"/>
+<circle cx="350" cy="1738" r="7" fill="#FFFFFF" stroke="#B8B8BD" stroke-width="1.2" opacity="1"/>
+<text x="370" y="1735" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13" font-weight="500" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">프로젝트 회의</text>
+<text x="370" y="1751" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#98989D" text-anchor="start" opacity="1" letter-spacing="0">오후 2:00</text>
+<circle cx="976" cy="1738" r="3.3" fill="#FF3B30" stroke="none" stroke-width="1" opacity="1"/>
+<line x1="370" y1="1759" x2="1012" y2="1759" stroke="#E6E6E9" stroke-width="1" opacity="0.9" stroke-linecap="butt"/>
+<rect x="332" y="1770" width="688" height="44" rx="8" fill="#000000" fill-opacity="0.03137254901960784" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<circle cx="350" cy="1792" r="7" fill="#FFFFFF" stroke="#B8B8BD" stroke-width="1.2" opacity="1"/>
+<text x="370" y="1789" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13" font-weight="500" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">과제 제출</text>
+<text x="370" y="1805" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#98989D" text-anchor="start" opacity="1" letter-spacing="0">오후 5:30</text>
+<circle cx="976" cy="1792" r="3.3" fill="#FF9F0A" stroke="none" stroke-width="1" opacity="1"/>
+<rect x="988" y="1777" width="26" height="26" rx="8" fill="#000000" fill-opacity="0.0392156862745098" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<g id="icon-ellipsis-993-1782">
+<circle cx="997.0" cy="1790.0" r="1.15" fill="#6E6E73" stroke="none" stroke-width="1" opacity="1"/>
+<circle cx="1001.0" cy="1790.0" r="1.15" fill="#6E6E73" stroke="none" stroke-width="1" opacity="1"/>
+<circle cx="1005.0" cy="1790.0" r="1.15" fill="#6E6E73" stroke="none" stroke-width="1" opacity="1"/>
+</g>
+<line x1="370" y1="1813" x2="1012" y2="1813" stroke="#E6E6E9" stroke-width="1" opacity="0.9" stroke-linecap="butt"/>
+<circle cx="350" cy="1846" r="7" fill="#FFFFFF" stroke="#B8B8BD" stroke-width="1.2" opacity="1"/>
+<text x="370" y="1843" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13" font-weight="500" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">운동</text>
+<text x="370" y="1859" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#98989D" text-anchor="start" opacity="1" letter-spacing="0">오후 8:00</text>
+<circle cx="976" cy="1846" r="3.3" fill="#007AFF" stroke="none" stroke-width="1" opacity="1"/>
+<line x1="370" y1="1867" x2="1012" y2="1867" stroke="#E6E6E9" stroke-width="1" opacity="0.9" stroke-linecap="butt"/>
+<circle cx="350" cy="1900" r="7" fill="#FFFFFF" stroke="#B8B8BD" stroke-width="1.2" opacity="1"/>
+<text x="370" y="1897" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13" font-weight="500" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">자료 정리</text>
+<text x="370" y="1913" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#98989D" text-anchor="start" opacity="1" letter-spacing="0">오후 9:30</text>
+<line x1="370" y1="1921" x2="1012" y2="1921" stroke="#E6E6E9" stroke-width="1" opacity="0.9" stroke-linecap="butt"/>
+<text x="332" y="1966" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13.5" font-weight="650" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">예정된 일정</text>
+<line x1="332" y1="1982" x2="1020" y2="1982" stroke="#E1E1E4" stroke-width="1" opacity="1" stroke-linecap="round"/>
+<circle cx="350" cy="2016" r="7" fill="#FFFFFF" stroke="#B8B8BD" stroke-width="1.2" opacity="1"/>
+<text x="370" y="2013" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13" font-weight="500" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">내일 팀 미팅</text>
+<text x="370" y="2029" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#98989D" text-anchor="start" opacity="1" letter-spacing="0">내일 · 오후 6:00</text>
+<circle cx="976" cy="2016" r="3.3" fill="#FF3B30" stroke="none" stroke-width="1" opacity="1"/>
+<line x1="370" y1="2037" x2="1012" y2="2037" stroke="#E6E6E9" stroke-width="1" opacity="0.9" stroke-linecap="butt"/>
+<circle cx="350" cy="2070" r="7" fill="#FFFFFF" stroke="#B8B8BD" stroke-width="1.2" opacity="1"/>
+<text x="370" y="2067" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13" font-weight="500" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">병원 예약</text>
+<text x="370" y="2083" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#98989D" text-anchor="start" opacity="1" letter-spacing="0">9월 9일 · 오전 11:00</text>
+<line x1="370" y1="2091" x2="1012" y2="2091" stroke="#E6E6E9" stroke-width="1" opacity="0.9" stroke-linecap="butt"/>
+<text x="332" y="2498" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="9.8" font-weight="500" fill="#98989D" text-anchor="start" opacity="1" letter-spacing="0">⌘N  새 일정     ⌘1  오늘     ⌘2  주간     ⌘3  월간</text>
+<text x="1120" y="1492" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="14" font-weight="650" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Screen B · Week</text>
+<rect x="1120" y="1510" width="1000" height="1018" rx="16" fill="#FBFBFC" fill-opacity="1" stroke="#C9C9CE" stroke-opacity="1" stroke-width="1" opacity="1" filter="url(#windowShadow)"/>
+<rect x="1120" y="1510" width="1000" height="52" rx="16" fill="#F8F8FA" fill-opacity="0.7490196078431373" stroke="none" stroke-opacity="1" stroke-width="0" opacity="1" />
+<rect x="1120" y="1550" width="1000" height="12" rx="0" fill="#F8F8FA" fill-opacity="0.7490196078431373" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<line x1="1120" y1="1562" x2="2120" y2="1562" stroke="#D4D4D8" stroke-width="1" opacity="0.9" stroke-linecap="butt"/>
+<circle cx="1140" cy="1536" r="6" fill="#FF5F57" stroke="none" stroke-width="1" opacity="1"/>
+<circle cx="1160" cy="1536" r="6" fill="#FEBC2E" stroke="none" stroke-width="1" opacity="1"/>
+<circle cx="1180" cy="1536" r="6" fill="#28C840" stroke="none" stroke-width="1" opacity="1"/>
+<rect x="1120" y="1562" width="220" height="966" rx="0" fill="#F3F3F5" fill-opacity="0.8666666666666667" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<text x="1138" y="1592" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13" font-weight="650" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Quick Scheduler</text>
+<g id="icon-today-1140-1621">
+<rect x="1142.5" y="1624.5" width="11.0" height="10.0" rx="2.0" fill="none" fill-opacity="1" stroke="#6E6E73" stroke-opacity="1" stroke-width="1.6" opacity="1" />
+<line x1="1145.0" y1="1623.0" x2="1145.0" y2="1626.0" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="1151.0" y1="1623.0" x2="1151.0" y2="1626.0" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="1142.5" y1="1627.0" x2="1153.5" y2="1627.0" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<circle cx="1148.0" cy="1630.5" r="1.4" fill="#6E6E73" stroke="none" stroke-width="1" opacity="1"/>
+</g>
+<text x="1166" y="1634" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">오늘</text>
+<rect x="1130" y="1650" width="200" height="30" rx="7" fill="#000000" fill-opacity="0.050980392156862744" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<g id="icon-week-1140-1657">
+<rect x="1142.5" y="1660.0" width="11.0" height="10.5" rx="2.0" fill="none" fill-opacity="1" stroke="#1D1D1F" stroke-opacity="1" stroke-width="1.6" opacity="1" />
+<line x1="1142.5" y1="1663.0" x2="1153.5" y2="1663.0" stroke="#1D1D1F" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="1146.2" y1="1663.0" x2="1146.2" y2="1670.5" stroke="#1D1D1F" stroke-width="1.6" opacity="0.65" stroke-linecap="round"/>
+<line x1="1149.8" y1="1663.0" x2="1149.8" y2="1670.5" stroke="#1D1D1F" stroke-width="1.6" opacity="0.65" stroke-linecap="round"/>
+</g>
+<text x="1166" y="1670" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">주간</text>
+<g id="icon-month-1140-1693">
+<rect x="1142.5" y="1695.5" width="2.7" height="2.7" rx="0.7" fill="none" fill-opacity="1" stroke="#6E6E73" stroke-opacity="1" stroke-width="1.1" opacity="1" />
+<rect x="1146.6" y="1695.5" width="2.7" height="2.7" rx="0.7" fill="none" fill-opacity="1" stroke="#6E6E73" stroke-opacity="1" stroke-width="1.1" opacity="1" />
+<rect x="1150.7" y="1695.5" width="2.7" height="2.7" rx="0.7" fill="none" fill-opacity="1" stroke="#6E6E73" stroke-opacity="1" stroke-width="1.1" opacity="1" />
+<rect x="1142.5" y="1699.6" width="2.7" height="2.7" rx="0.7" fill="none" fill-opacity="1" stroke="#6E6E73" stroke-opacity="1" stroke-width="1.1" opacity="1" />
+<rect x="1146.6" y="1699.6" width="2.7" height="2.7" rx="0.7" fill="none" fill-opacity="1" stroke="#6E6E73" stroke-opacity="1" stroke-width="1.1" opacity="1" />
+<rect x="1150.7" y="1699.6" width="2.7" height="2.7" rx="0.7" fill="none" fill-opacity="1" stroke="#6E6E73" stroke-opacity="1" stroke-width="1.1" opacity="1" />
+<rect x="1142.5" y="1703.7" width="2.7" height="2.7" rx="0.7" fill="none" fill-opacity="1" stroke="#6E6E73" stroke-opacity="1" stroke-width="1.1" opacity="1" />
+<rect x="1146.6" y="1703.7" width="2.7" height="2.7" rx="0.7" fill="none" fill-opacity="1" stroke="#6E6E73" stroke-opacity="1" stroke-width="1.1" opacity="1" />
+<rect x="1150.7" y="1703.7" width="2.7" height="2.7" rx="0.7" fill="none" fill-opacity="1" stroke="#6E6E73" stroke-opacity="1" stroke-width="1.1" opacity="1" />
+</g>
+<text x="1166" y="1706" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">월간</text>
+<line x1="1136" y1="2476" x2="1324" y2="2476" stroke="#D7D7DB" stroke-width="1" opacity="0.9" stroke-linecap="round"/>
+<g id="icon-gear-1140-2488">
+<circle cx="1148.0" cy="2496.0" r="3.0" fill="none" stroke="#6E6E73" stroke-width="1.6" opacity="1"/>
+<circle cx="1148.0" cy="2496.0" r="1.2" fill="none" stroke="#6E6E73" stroke-width="1.6" opacity="1"/>
+<line x1="1148.0" y1="2489.5" x2="1148.0" y2="2491.2" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="1148.0" y1="2500.8" x2="1148.0" y2="2502.5" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="1141.5" y1="2496.0" x2="1143.2" y2="2496.0" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="1152.8" y1="2496.0" x2="1154.5" y2="2496.0" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="1143.1" y1="2491.1" x2="1144.4" y2="2492.4" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="1151.6" y1="2499.6" x2="1152.9" y2="2500.9" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="1151.6" y1="2492.4" x2="1152.9" y2="2491.1" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="1143.1" y1="2500.9" x2="1144.4" y2="2499.6" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+</g>
+<text x="1166" y="2501" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">설정</text>
+<text x="1366" y="1543" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="14" font-weight="650" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">주간</text>
+<rect x="1780" y="1521" width="130" height="30" rx="8" fill="#F2F2F4" fill-opacity="1" stroke="#D8D8DC" stroke-opacity="1" stroke-width="1" opacity="1" />
+<g id="icon-chev-l-1790-1528">
+<path d="M 1800.50 1531.50 L 1796.00 1536.00 L 1800.50 1540.50" stroke="#6E6E73" stroke-width="1.6" fill="none" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="1845" y="1541" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#6E6E73" text-anchor="middle" opacity="1" letter-spacing="0">오늘</text>
+<g id="icon-chev-r-1884-1528">
+<path d="M 1889.50 1531.50 L 1894.00 1536.00 L 1889.50 1540.50" stroke="#6E6E73" stroke-width="1.6" fill="none" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<rect x="1944" y="1521" width="30" height="30" rx="8" fill="none" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<g id="icon-sort-1951-1528">
+<line x1="1955.0" y1="1532.0" x2="1963.0" y2="1532.0" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="1956.5" y1="1536.0" x2="1961.5" y2="1536.0" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="1958.0" y1="1540.0" x2="1960.0" y2="1540.0" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+</g>
+<rect x="1988" y="1521" width="30" height="30" rx="8" fill="#007AFF" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<g id="icon-plus-1995-1528">
+<line x1="2003.0" y1="1531.3" x2="2003.0" y2="1540.7" stroke="#FFFFFF" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="1998.3" y1="1536.0" x2="2007.7" y2="1536.0" stroke="#FFFFFF" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+</g>
+<text x="1380" y="1602" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">주간</text>
+<text x="1380" y="1628" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">9월 7일 – 9월 20일</text>
+<text x="1380" y="1678" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13.5" font-weight="650" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">이번 주 할 일</text>
+<line x1="1380" y1="1694" x2="2068" y2="1694" stroke="#E1E1E4" stroke-width="1" opacity="1" stroke-linecap="round"/>
+<circle cx="1398" cy="1730" r="7" fill="#FFFFFF" stroke="#B8B8BD" stroke-width="1.2" opacity="1"/>
+<text x="1418" y="1727" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13" font-weight="500" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">프로젝트 회의</text>
+<text x="1418" y="1743" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#98989D" text-anchor="start" opacity="1" letter-spacing="0">월 · 오후 2:00</text>
+<circle cx="2024" cy="1730" r="3.3" fill="#FF3B30" stroke="none" stroke-width="1" opacity="1"/>
+<line x1="1418" y1="1751" x2="2060" y2="1751" stroke="#E6E6E9" stroke-width="1" opacity="0.9" stroke-linecap="butt"/>
+<circle cx="1398" cy="1782" r="7" fill="#FFFFFF" stroke="#B8B8BD" stroke-width="1.2" opacity="1"/>
+<text x="1418" y="1779" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13" font-weight="500" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">발표 준비</text>
+<text x="1418" y="1795" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#98989D" text-anchor="start" opacity="1" letter-spacing="0">목 · 오후 4:00</text>
+<circle cx="2024" cy="1782" r="3.3" fill="#FF9F0A" stroke="none" stroke-width="1" opacity="1"/>
+<line x1="1418" y1="1803" x2="2060" y2="1803" stroke="#E6E6E9" stroke-width="1" opacity="0.9" stroke-linecap="butt"/>
+<circle cx="1398" cy="1834" r="7" fill="#FFFFFF" stroke="#B8B8BD" stroke-width="1.2" opacity="1"/>
+<text x="1418" y="1831" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13" font-weight="500" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">COW 스터디</text>
+<text x="1418" y="1847" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#98989D" text-anchor="start" opacity="1" letter-spacing="0">목 · 오후 7:30</text>
+<circle cx="2024" cy="1834" r="3.3" fill="#007AFF" stroke="none" stroke-width="1" opacity="1"/>
+<line x1="1418" y1="1855" x2="2060" y2="1855" stroke="#E6E6E9" stroke-width="1" opacity="0.9" stroke-linecap="butt"/>
+<text x="1380" y="1908" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13.5" font-weight="650" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">2주</text>
+<line x1="1380" y1="1924" x2="2068" y2="1924" stroke="#E1E1E4" stroke-width="1" opacity="1" stroke-linecap="round"/>
+<text x="1428.0" y="1942" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10" font-weight="600" fill="#98989D" text-anchor="middle" opacity="1" letter-spacing="0">월</text>
+<text x="1524.0" y="1942" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10" font-weight="600" fill="#98989D" text-anchor="middle" opacity="1" letter-spacing="0">화</text>
+<text x="1620.0" y="1942" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10" font-weight="600" fill="#98989D" text-anchor="middle" opacity="1" letter-spacing="0">수</text>
+<text x="1716.0" y="1942" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10" font-weight="600" fill="#98989D" text-anchor="middle" opacity="1" letter-spacing="0">목</text>
+<text x="1812.0" y="1942" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10" font-weight="600" fill="#98989D" text-anchor="middle" opacity="1" letter-spacing="0">금</text>
+<text x="1908.0" y="1942" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10" font-weight="600" fill="#98989D" text-anchor="middle" opacity="1" letter-spacing="0">토</text>
+<text x="2004.0" y="1942" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10" font-weight="600" fill="#98989D" text-anchor="middle" opacity="1" letter-spacing="0">일</text>
+<rect x="1380" y="1952" width="96" height="112" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<circle cx="1398" cy="1969" r="12" fill="#007AFF" stroke="none" stroke-width="1" opacity="1"/>
+<text x="1398" y="1973" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11" font-weight="650" fill="#FFFFFF" text-anchor="middle" opacity="1" letter-spacing="0">7</text>
+<rect x="1476" y="1952" width="96" height="112" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="1488" y="1974" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">8</text>
+<rect x="1572" y="1952" width="96" height="112" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="1584" y="1974" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">9</text>
+<rect x="1668" y="1952" width="96" height="112" rx="0" fill="#EAF3FF" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="1680" y="1974" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">10</text>
+<circle cx="1681" cy="1983" r="2.5" fill="#AF52DE" stroke="none" stroke-width="1" opacity="1"/>
+<text x="1689" y="1987" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">발표</text>
+<circle cx="1681" cy="2000" r="2.5" fill="#007AFF" stroke="none" stroke-width="1" opacity="1"/>
+<text x="1689" y="2004" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">스터디</text>
+<rect x="1764" y="1952" width="96" height="112" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="1776" y="1974" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">11</text>
+<rect x="1860" y="1952" width="96" height="112" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="1872" y="1974" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">12</text>
+<rect x="1956" y="1952" width="96" height="112" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="1968" y="1974" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">13</text>
+<rect x="1380" y="2064" width="96" height="112" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="1392" y="2086" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">14</text>
+<circle cx="1393" cy="2095" r="2.5" fill="#FF3B30" stroke="none" stroke-width="1" opacity="1"/>
+<text x="1401" y="2099" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">마감</text>
+<rect x="1476" y="2064" width="96" height="112" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="1488" y="2086" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">15</text>
+<rect x="1572" y="2064" width="96" height="112" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="1584" y="2086" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">16</text>
+<rect x="1668" y="2064" width="96" height="112" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="1680" y="2086" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">17</text>
+<rect x="1764" y="2064" width="96" height="112" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="1776" y="2086" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">18</text>
+<rect x="1860" y="2064" width="96" height="112" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="1872" y="2086" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">19</text>
+<rect x="1956" y="2064" width="96" height="112" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="1968" y="2086" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">20</text>
+<text x="1380" y="2218" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13.5" font-weight="650" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">9월 10일 목요일</text>
+<line x1="1380" y1="2234" x2="2068" y2="2234" stroke="#E1E1E4" stroke-width="1" opacity="1" stroke-linecap="round"/>
+<circle cx="1398" cy="2270" r="7" fill="#FFFFFF" stroke="#B8B8BD" stroke-width="1.2" opacity="1"/>
+<text x="1418" y="2267" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13" font-weight="500" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">발표 준비</text>
+<text x="1418" y="2283" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#98989D" text-anchor="start" opacity="1" letter-spacing="0">오후 4:00</text>
+<circle cx="2024" cy="2270" r="3.3" fill="#FF3B30" stroke="none" stroke-width="1" opacity="1"/>
+<line x1="1418" y1="2291" x2="2060" y2="2291" stroke="#E6E6E9" stroke-width="1" opacity="0.9" stroke-linecap="butt"/>
+<circle cx="1398" cy="2324" r="7" fill="#FFFFFF" stroke="#B8B8BD" stroke-width="1.2" opacity="1"/>
+<text x="1418" y="2321" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13" font-weight="500" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">COW 스터디</text>
+<text x="1418" y="2337" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#98989D" text-anchor="start" opacity="1" letter-spacing="0">오후 7:30</text>
+<circle cx="2024" cy="2324" r="3.3" fill="#007AFF" stroke="none" stroke-width="1" opacity="1"/>
+<line x1="1418" y1="2345" x2="2060" y2="2345" stroke="#E6E6E9" stroke-width="1" opacity="0.9" stroke-linecap="butt"/>
+<text x="2168" y="1492" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="14" font-weight="650" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Screen C · Month</text>
+<rect x="2168" y="1510" width="1000" height="1018" rx="16" fill="#FBFBFC" fill-opacity="1" stroke="#C9C9CE" stroke-opacity="1" stroke-width="1" opacity="1" filter="url(#windowShadow)"/>
+<rect x="2168" y="1510" width="1000" height="52" rx="16" fill="#F8F8FA" fill-opacity="0.7490196078431373" stroke="none" stroke-opacity="1" stroke-width="0" opacity="1" />
+<rect x="2168" y="1550" width="1000" height="12" rx="0" fill="#F8F8FA" fill-opacity="0.7490196078431373" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<line x1="2168" y1="1562" x2="3168" y2="1562" stroke="#D4D4D8" stroke-width="1" opacity="0.9" stroke-linecap="butt"/>
+<circle cx="2188" cy="1536" r="6" fill="#FF5F57" stroke="none" stroke-width="1" opacity="1"/>
+<circle cx="2208" cy="1536" r="6" fill="#FEBC2E" stroke="none" stroke-width="1" opacity="1"/>
+<circle cx="2228" cy="1536" r="6" fill="#28C840" stroke="none" stroke-width="1" opacity="1"/>
+<rect x="2168" y="1562" width="220" height="966" rx="0" fill="#F3F3F5" fill-opacity="0.8666666666666667" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<text x="2186" y="1592" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13" font-weight="650" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">Quick Scheduler</text>
+<g id="icon-today-2188-1621">
+<rect x="2190.5" y="1624.5" width="11.0" height="10.0" rx="2.0" fill="none" fill-opacity="1" stroke="#6E6E73" stroke-opacity="1" stroke-width="1.6" opacity="1" />
+<line x1="2193.0" y1="1623.0" x2="2193.0" y2="1626.0" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="2199.0" y1="1623.0" x2="2199.0" y2="1626.0" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="2190.5" y1="1627.0" x2="2201.5" y2="1627.0" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<circle cx="2196.0" cy="1630.5" r="1.4" fill="#6E6E73" stroke="none" stroke-width="1" opacity="1"/>
+</g>
+<text x="2214" y="1634" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">오늘</text>
+<g id="icon-week-2188-1657">
+<rect x="2190.5" y="1660.0" width="11.0" height="10.5" rx="2.0" fill="none" fill-opacity="1" stroke="#6E6E73" stroke-opacity="1" stroke-width="1.6" opacity="1" />
+<line x1="2190.5" y1="1663.0" x2="2201.5" y2="1663.0" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="2194.2" y1="1663.0" x2="2194.2" y2="1670.5" stroke="#6E6E73" stroke-width="1.6" opacity="0.65" stroke-linecap="round"/>
+<line x1="2197.8" y1="1663.0" x2="2197.8" y2="1670.5" stroke="#6E6E73" stroke-width="1.6" opacity="0.65" stroke-linecap="round"/>
+</g>
+<text x="2214" y="1670" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">주간</text>
+<rect x="2178" y="1686" width="200" height="30" rx="7" fill="#000000" fill-opacity="0.050980392156862744" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<g id="icon-month-2188-1693">
+<rect x="2190.5" y="1695.5" width="2.7" height="2.7" rx="0.7" fill="none" fill-opacity="1" stroke="#1D1D1F" stroke-opacity="1" stroke-width="1.1" opacity="1" />
+<rect x="2194.6" y="1695.5" width="2.7" height="2.7" rx="0.7" fill="none" fill-opacity="1" stroke="#1D1D1F" stroke-opacity="1" stroke-width="1.1" opacity="1" />
+<rect x="2198.7" y="1695.5" width="2.7" height="2.7" rx="0.7" fill="none" fill-opacity="1" stroke="#1D1D1F" stroke-opacity="1" stroke-width="1.1" opacity="1" />
+<rect x="2190.5" y="1699.6" width="2.7" height="2.7" rx="0.7" fill="none" fill-opacity="1" stroke="#1D1D1F" stroke-opacity="1" stroke-width="1.1" opacity="1" />
+<rect x="2194.6" y="1699.6" width="2.7" height="2.7" rx="0.7" fill="none" fill-opacity="1" stroke="#1D1D1F" stroke-opacity="1" stroke-width="1.1" opacity="1" />
+<rect x="2198.7" y="1699.6" width="2.7" height="2.7" rx="0.7" fill="none" fill-opacity="1" stroke="#1D1D1F" stroke-opacity="1" stroke-width="1.1" opacity="1" />
+<rect x="2190.5" y="1703.7" width="2.7" height="2.7" rx="0.7" fill="none" fill-opacity="1" stroke="#1D1D1F" stroke-opacity="1" stroke-width="1.1" opacity="1" />
+<rect x="2194.6" y="1703.7" width="2.7" height="2.7" rx="0.7" fill="none" fill-opacity="1" stroke="#1D1D1F" stroke-opacity="1" stroke-width="1.1" opacity="1" />
+<rect x="2198.7" y="1703.7" width="2.7" height="2.7" rx="0.7" fill="none" fill-opacity="1" stroke="#1D1D1F" stroke-opacity="1" stroke-width="1.1" opacity="1" />
+</g>
+<text x="2214" y="1706" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">월간</text>
+<line x1="2184" y1="2476" x2="2372" y2="2476" stroke="#D7D7DB" stroke-width="1" opacity="0.9" stroke-linecap="round"/>
+<g id="icon-gear-2188-2488">
+<circle cx="2196.0" cy="2496.0" r="3.0" fill="none" stroke="#6E6E73" stroke-width="1.6" opacity="1"/>
+<circle cx="2196.0" cy="2496.0" r="1.2" fill="none" stroke="#6E6E73" stroke-width="1.6" opacity="1"/>
+<line x1="2196.0" y1="2489.5" x2="2196.0" y2="2491.2" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="2196.0" y1="2500.8" x2="2196.0" y2="2502.5" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="2189.5" y1="2496.0" x2="2191.2" y2="2496.0" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="2200.8" y1="2496.0" x2="2202.5" y2="2496.0" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="2191.1" y1="2491.1" x2="2192.4" y2="2492.4" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="2199.6" y1="2499.6" x2="2200.9" y2="2500.9" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="2199.6" y1="2492.4" x2="2200.9" y2="2491.1" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="2191.1" y1="2500.9" x2="2192.4" y2="2499.6" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+</g>
+<text x="2214" y="2501" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="13" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">설정</text>
+<text x="2414" y="1543" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="14" font-weight="650" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">월간</text>
+<rect x="2818" y="1521" width="140" height="30" rx="8" fill="#F2F2F4" fill-opacity="1" stroke="#D8D8DC" stroke-opacity="1" stroke-width="1" opacity="1" />
+<g id="icon-chev-l-2828-1528">
+<path d="M 2838.50 1531.50 L 2834.00 1536.00 L 2838.50 1540.50" stroke="#6E6E73" stroke-width="1.6" fill="none" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="2888" y="1541" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#6E6E73" text-anchor="middle" opacity="1" letter-spacing="0">오늘</text>
+<g id="icon-chev-r-2932-1528">
+<path d="M 2937.50 1531.50 L 2942.00 1536.00 L 2937.50 1540.50" stroke="#6E6E73" stroke-width="1.6" fill="none" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<rect x="2992" y="1521" width="30" height="30" rx="8" fill="none" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<g id="icon-sort-2999-1528">
+<line x1="3003.0" y1="1532.0" x2="3011.0" y2="1532.0" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="3004.5" y1="1536.0" x2="3009.5" y2="1536.0" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="3006.0" y1="1540.0" x2="3008.0" y2="1540.0" stroke="#6E6E73" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+</g>
+<rect x="3036" y="1521" width="30" height="30" rx="8" fill="#007AFF" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1" opacity="1" />
+<g id="icon-plus-3043-1528">
+<line x1="3051.0" y1="1531.3" x2="3051.0" y2="1540.7" stroke="#FFFFFF" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="3046.3" y1="1536.0" x2="3055.7" y2="1536.0" stroke="#FFFFFF" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+</g>
+<text x="2418" y="1604" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">2026년 9월</text>
+<text x="2418" y="1632" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">32개의 일정</text>
+<text x="2468.0" y="1670" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10" font-weight="600" fill="#98989D" text-anchor="middle" opacity="1" letter-spacing="0">월</text>
+<text x="2568.0" y="1670" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10" font-weight="600" fill="#98989D" text-anchor="middle" opacity="1" letter-spacing="0">화</text>
+<text x="2668.0" y="1670" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10" font-weight="600" fill="#98989D" text-anchor="middle" opacity="1" letter-spacing="0">수</text>
+<text x="2768.0" y="1670" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10" font-weight="600" fill="#98989D" text-anchor="middle" opacity="1" letter-spacing="0">목</text>
+<text x="2868.0" y="1670" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10" font-weight="600" fill="#98989D" text-anchor="middle" opacity="1" letter-spacing="0">금</text>
+<text x="2968.0" y="1670" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10" font-weight="600" fill="#98989D" text-anchor="middle" opacity="1" letter-spacing="0">토</text>
+<text x="3068.0" y="1670" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10" font-weight="600" fill="#98989D" text-anchor="middle" opacity="1" letter-spacing="0">일</text>
+<rect x="2418" y="1680" width="100" height="115" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="2430" y="1702" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#98989D" text-anchor="start" opacity="1" letter-spacing="0">31</text>
+<rect x="2518" y="1680" width="100" height="115" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="2530" y="1702" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">1</text>
+<rect x="2618" y="1680" width="100" height="115" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="2630" y="1702" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">2</text>
+<rect x="2718" y="1680" width="100" height="115" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="2730" y="1702" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">3</text>
+<circle cx="2731" cy="1711" r="2.5" fill="#007AFF" stroke="none" stroke-width="1" opacity="1"/>
+<text x="2739" y="1715" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">회의</text>
+<rect x="2818" y="1680" width="100" height="115" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="2830" y="1702" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">4</text>
+<rect x="2918" y="1680" width="100" height="115" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="2930" y="1702" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">5</text>
+<rect x="3018" y="1680" width="100" height="115" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="3030" y="1702" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">6</text>
+<rect x="2418" y="1795" width="100" height="115" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<circle cx="2436" cy="1812" r="12" fill="#007AFF" stroke="none" stroke-width="1" opacity="1"/>
+<text x="2436" y="1816" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11" font-weight="650" fill="#FFFFFF" text-anchor="middle" opacity="1" letter-spacing="0">7</text>
+<circle cx="2431" cy="1826" r="2.5" fill="#FF3B30" stroke="none" stroke-width="1" opacity="1"/>
+<text x="2439" y="1830" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">미팅</text>
+<rect x="2518" y="1795" width="100" height="115" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="2530" y="1817" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">8</text>
+<rect x="2618" y="1795" width="100" height="115" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="2630" y="1817" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">9</text>
+<rect x="2718" y="1795" width="100" height="115" rx="0" fill="#EAF3FF" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="2730" y="1817" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">10</text>
+<circle cx="2731" cy="1826" r="2.5" fill="#AF52DE" stroke="none" stroke-width="1" opacity="1"/>
+<text x="2739" y="1830" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">발표</text>
+<circle cx="2731" cy="1843" r="2.5" fill="#007AFF" stroke="none" stroke-width="1" opacity="1"/>
+<text x="2739" y="1847" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">스터디</text>
+<rect x="2818" y="1795" width="100" height="115" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="2830" y="1817" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">11</text>
+<rect x="2918" y="1795" width="100" height="115" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="2930" y="1817" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">12</text>
+<rect x="3018" y="1795" width="100" height="115" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="3030" y="1817" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">13</text>
+<rect x="2418" y="1910" width="100" height="115" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="2430" y="1932" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">14</text>
+<rect x="2518" y="1910" width="100" height="115" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="2530" y="1932" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">15</text>
+<rect x="2618" y="1910" width="100" height="115" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="2630" y="1932" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">16</text>
+<rect x="2718" y="1910" width="100" height="115" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="2730" y="1932" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">17</text>
+<rect x="2818" y="1910" width="100" height="115" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="2830" y="1932" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">18</text>
+<circle cx="2831" cy="1941" r="2.5" fill="#FF9F0A" stroke="none" stroke-width="1" opacity="1"/>
+<text x="2839" y="1945" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">마감</text>
+<rect x="2918" y="1910" width="100" height="115" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="2930" y="1932" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">19</text>
+<rect x="3018" y="1910" width="100" height="115" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="3030" y="1932" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">20</text>
+<rect x="2418" y="2025" width="100" height="115" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="2430" y="2047" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">21</text>
+<rect x="2518" y="2025" width="100" height="115" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="2530" y="2047" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">22</text>
+<rect x="2618" y="2025" width="100" height="115" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="2630" y="2047" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">23</text>
+<rect x="2718" y="2025" width="100" height="115" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="2730" y="2047" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">24</text>
+<circle cx="2731" cy="2056" r="2.5" fill="#34C759" stroke="none" stroke-width="1" opacity="1"/>
+<text x="2739" y="2060" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="500" fill="#6E6E73" text-anchor="start" opacity="1" letter-spacing="0">공연</text>
+<rect x="2818" y="2025" width="100" height="115" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="2830" y="2047" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">25</text>
+<rect x="2918" y="2025" width="100" height="115" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="2930" y="2047" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">26</text>
+<rect x="3018" y="2025" width="100" height="115" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="3030" y="2047" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">27</text>
+<rect x="2418" y="2140" width="100" height="115" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="2430" y="2162" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">28</text>
+<rect x="2518" y="2140" width="100" height="115" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="2530" y="2162" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">29</text>
+<rect x="2618" y="2140" width="100" height="115" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="2630" y="2162" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">30</text>
+<rect x="2718" y="2140" width="100" height="115" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="2730" y="2162" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#98989D" text-anchor="start" opacity="1" letter-spacing="0">1</text>
+<rect x="2818" y="2140" width="100" height="115" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="2830" y="2162" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#98989D" text-anchor="start" opacity="1" letter-spacing="0">2</text>
+<rect x="2918" y="2140" width="100" height="115" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="2930" y="2162" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#98989D" text-anchor="start" opacity="1" letter-spacing="0">3</text>
+<rect x="3018" y="2140" width="100" height="115" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="3030" y="2162" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#98989D" text-anchor="start" opacity="1" letter-spacing="0">4</text>
+<rect x="2418" y="2255" width="100" height="115" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="2430" y="2277" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#98989D" text-anchor="start" opacity="1" letter-spacing="0">5</text>
+<rect x="2518" y="2255" width="100" height="115" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="2530" y="2277" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#98989D" text-anchor="start" opacity="1" letter-spacing="0">6</text>
+<rect x="2618" y="2255" width="100" height="115" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="2630" y="2277" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#98989D" text-anchor="start" opacity="1" letter-spacing="0">7</text>
+<rect x="2718" y="2255" width="100" height="115" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="2730" y="2277" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#98989D" text-anchor="start" opacity="1" letter-spacing="0">8</text>
+<rect x="2818" y="2255" width="100" height="115" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="2830" y="2277" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#98989D" text-anchor="start" opacity="1" letter-spacing="0">9</text>
+<rect x="2918" y="2255" width="100" height="115" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="2930" y="2277" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#98989D" text-anchor="start" opacity="1" letter-spacing="0">10</text>
+<rect x="3018" y="2255" width="100" height="115" rx="0" fill="none" fill-opacity="1" stroke="#E3E3E6" stroke-opacity="1" stroke-width="0.8" opacity="1" />
+<text x="3030" y="2277" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="550" fill="#98989D" text-anchor="start" opacity="1" letter-spacing="0">11</text>
+<text x="2418" y="2404" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="650" fill="#1D1D1F" text-anchor="start" opacity="1" letter-spacing="0">9월 10일 목요일</text>
+<text x="3082" y="2404" font-family="NanumSquare, Noto Sans CJK KR, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="500" fill="#98989D" text-anchor="end" opacity="1" letter-spacing="0">2개의 일정</text>
+</svg>
