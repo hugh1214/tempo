@@ -24,6 +24,7 @@ tasks.withType<JavaCompile> {
 
 application {
     mainClass.set("com.hyozlet.tempo.TempoApplication")
+    applicationDefaultJvmArgs = listOf("--enable-native-access=javafx.graphics,ALL-UNNAMED")
 }
 
 javafx {
@@ -44,4 +45,5 @@ dependencies {
 
 tasks.withType<Test> {
     useJUnitPlatform()
+    jvmArgs("--enable-native-access=ALL-UNNAMED")
 }
